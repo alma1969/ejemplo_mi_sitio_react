@@ -1,0 +1,21 @@
+/* Footer.module.css */
+ .footer {
+   background-color: #1e293b;  /* Azul oscuro */
+   color: white;  /* Texto blanco */              
+   padding: 2rem 0;   /* Espaciado arriba y abajo */          
+   text-align: center;     /* Centrar texto e íconos */      
+}
+ .socialLinks {
+   display: flex;      /* Activar Flexbox */         
+   justify-content: center;  /* Centrar horizontalmente */   
+   gap: 1.5rem;     /* Espacio entre íconos/enlaces */            
+   margin-top: 1rem;  /* Espacio arriba del bloque */          
+
+ }
+ 
+
+ 
+ 
+ 
+ 
+ 

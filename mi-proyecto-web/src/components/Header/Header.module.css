@@ -1,0 +1,19 @@
+ /* Header.module.css */
+ .header {
+   background-color: #2563eb; /* Fondo azul */
+   color: white; /* Texto blanco */      
+   padding: 1rem 0; /* Espacio arriba y abajo */  
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra sutil debajo */
+ }
+ .container {
+   width: 90%; /* Ancho del 90% de la pantalla */               
+   max-width: 1200px;   /* No crecer más de 1200px */      
+   margin: 0 auto;    /* Centrado horizontal */         
+   display: flex;     /* Elementos en línea */         
+   justify-content: space-between; /* Espacio entre título y menú */
+ }
+ @media (max-width: 768px) {
+   .container {
+     flex-direction: column; /* En pantallas pequeñas, se apilan verticalmente */
+ }
+ }

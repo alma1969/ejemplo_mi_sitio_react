@@ -1,0 +1,10 @@
+ /* App.module.css */
+ .app {
+    min-height: 100vh;  /* Alto mínimo de toda la pantalla */      
+    display: flex;      /* Activamos Flexbox */        
+    flex-direction: column;     /* Acomoda los hijos de arriba hacia abajo */  
+
+ }
+ 
+
+ 

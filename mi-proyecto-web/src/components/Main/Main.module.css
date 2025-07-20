@@ -1,0 +1,15 @@
+ @media (min-width: 768px) {
+ .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas si la pantalla es grande */
+  }
+ }
+ .card {
+    background: white; /* Fondo blanco */        
+    border-radius: 8px;  /* Bordes redondeados */      
+    padding: 1.5rem;    /* Espaciado interno */      
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra suave */ 
+}
+ 
+ 
+ 
+ 
